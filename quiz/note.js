@@ -174,17 +174,17 @@ function showResult() {
   if (userScore > 75) {
     // if user scored more than 3
     //creating a new span tag and passing the user score number and total question number
-    let scoreTag = "<span>anda bebas dari korupsi <p>" + userScore + "</p> dari <p>" + 20*questions.length + "</p></span>";
+    let scoreTag = "<span>anda bebas dari korupsi <p>" + userScore + "</p> dari <p>" + 10*questions.length + "</p></span>";
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
     alert("PERTAHANKAN POLA PIKIR ANDA AGAR TERBEBAS DARI KORUPSI");
   } else if (userScore > 50) {
     // if user scored more than 
-    let scoreTag = "<span>anda mungkin berpotensi korupsi <p>" + userScore + "</p> dari <p>" + 20*questions.length + "</p></span>";
+    let scoreTag = "<span>anda mungkin berpotensi korupsi <p>" + userScore + "</p> dari <p>" + 10*questions.length + "</p></span>";
     scoreText.innerHTML = scoreTag;
     alert("HATI-HATI!!! ANDA MUNGKIN MELAKUKAN TINDAK KORUPSI");
   } else {
     // if user scored less than 1
-    let scoreTag = "<span>anda berpotensi korupsi <p>" + userScore + "</p> dari <p>" + 20*questions.length + "</p></span>";
+    let scoreTag = "<span>anda berpotensi korupsi <p>" + userScore + "</p> dari <p>" + 10*questions.length + "</p></span>";
     scoreText.innerHTML = scoreTag;
     alert("WASPADA!!! SEGERA EVALUASI DIRI ANDA AGAR TERBEBAS DARI TINDAK KORUPSI");
   }
