@@ -129,7 +129,6 @@ function optionSelected(answer) {
   clearInterval(counterLine); //clear counterLine
   let userAns = answer.textContent; //getting user selected option
   let correcAns = questions[que_count].answer; //getting correct answer from array
-  let goodAns = questions[que_count].answer10
   let badAns = questions[que_count].answer5
   const allOptions = option_list.children.length; //getting all option items
 
@@ -140,12 +139,6 @@ function optionSelected(answer) {
     answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
     console.log("Correct Answer");
     console.log("Your correct answers = " + userScore);
-  } else if (userAns == goodAns) {
-    userScore += 10;
-    answer.classList.add("correct"); //adding green color to correct selected option
-    answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
-    console.log("good Answer");
-    console.log("Your good answers = " + userScore);
   } else if (userAns == badAns) {
     userScore += 5;
     answer.classList.add("correct"); //adding green color to correct selected option
