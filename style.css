@@ -1,37 +1,49 @@
+
 .jumbotron {
   background-image: url(img/border.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
   padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: grid;
 }
 .jumbotron h1 {
-  font-family: 'Roboto Slab', serif;
-  color: #010203;
+  font-family: 'Concert One', cursive;
+  color: white;
 }
 .jumbotron p {
   color: white;
-  font-family: 'IBM Plex Serif', serif;
-font-family: 'Merriweather', serif;
-font-family: 'Roboto Slab', serif;
+  font-family: 'Concert One', cursive;
+  font-family: 'Inconsolata', monospace;
 }
 .countainer {
   margin: 5rem 1rem;
 }
 .countainer h2 {
   text-align: center;
+  font-family: 'Concert One', cursive;
+
 }
 .countainer p1 {
   text-align: center;
-  font-family: 'Merriweather', serif;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Concert One', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Playfair Display', serif;
   font-size: 1.7rem;
 }
-.card {
+.card,.card2,.card3 {
   margin-top: 2rem;
   background-color: #e2edff;
 }
 .btn {
-  margin-left: 50%;
+  margin-left: 47%;
   margin-top: 2rem;
 }
 .card p {
   font-family: 'Roboto Slab', serif;
+}
+footer p {
+  text-align: center;
 }
