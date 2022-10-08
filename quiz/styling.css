@@ -25,7 +25,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: grid;
 }
 
 .info_box.activeInfo,
@@ -50,13 +49,14 @@ body {
 }
 
 .info_box {
-  width: 540px;
+  width: 300px;
   background: #fff;
   border-radius: 5px;
   transform: translate(-50%, -50%) scale(0.9);
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
+
 }
 
 .info_box .info-title {
@@ -108,7 +108,8 @@ body {
 }
 
 .quiz_box {
-  width: 550px;
+  height: auto;
+  width: auto;
   background: #fff;
   border-radius: 5px;
   transform: translate(-50%, -50%) scale(0.9);
@@ -120,7 +121,7 @@ body {
 .quiz_box header {
   position: relative;
   z-index: 2;
-  height: 70px;
+  height: auto;
   padding: 0 30px;
   background: #fff;
   border-radius: 5px 5px 0 0;
@@ -150,7 +151,7 @@ body {
 
 .quiz_box header .timer .time_left_txt {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 10px;
   user-select: none;
 }
 
@@ -182,7 +183,7 @@ section {
 }
 
 section .que_text {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -196,7 +197,7 @@ section .option_list .option {
   border: 1px solid #84c5fe;
   border-radius: 5px;
   padding: 8px 15px;
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -280,7 +281,7 @@ footer .total_que span p:first-child {
 footer button {
   height: 40px;
   padding: 0 13px;
-  font-size: 18px;
+  font-size: 0.8rem;
   font-weight: 400;
   cursor: pointer;
   border: none;
@@ -311,7 +312,7 @@ footer button.show {
   border-radius: 5px;
   display: flex;
   padding: 25px 30px;
-  width: 450px;
+  width: 400px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -351,9 +352,9 @@ footer button.show {
 
 .result_box .buttons button {
   margin: 0 10px;
-  height: 45px;
-  padding: 0 20px;
-  font-size: 18px;
+  height: 50px;
+  padding: 0 25px;
+  font-size: 12px;
   font-weight: 500;
   cursor: pointer;
   border: none;
