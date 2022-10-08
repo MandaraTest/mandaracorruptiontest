@@ -1,12 +1,11 @@
 
 .jumbotron {
-  background-image: url(img/border.png);
+  background-color: #FFC0CB;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   position: relative;
   padding-top: 6rem;
-  padding-bottom: 6rem;
   display: grid;
 }
 .jumbotron h1 {
@@ -19,19 +18,20 @@
   font-family: 'Inconsolata', monospace;
 }
 .countainer {
-  margin: 5rem 1rem;
+  margin: 1rem 1rem;
 }
 .countainer h2 {
+  margin-top: 1rem;
   text-align: center;
   font-family: 'Concert One', cursive;
-
+  font-size: 1.7rem;
 }
 .countainer p1 {
   text-align: center;
   font-family: 'Concert One', cursive;
   font-family: 'Inconsolata', monospace;
   font-family: 'Playfair Display', serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 .card,.card2,.card3 {
   margin-top: 2rem;
