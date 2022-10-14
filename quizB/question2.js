@@ -2,17 +2,17 @@
 let questions = [
     {
       numb: 1,
-      question: "Seorang guru tidak masuk ke kelas yang diajarnya siang ini, ternyata guru tersebut tidak bisa menghadiri pemakaman keluarga. namun beliau tidak menginfokan atau mengonfirmasikan ketidakhadirannya pada muridnya. Apa pendapatmu mengenai hal ini?",
-      answer: "kurang wajar",
-      answer5: "wajar",
-      options: ["sangat wajar", "wajar", "kurang wajar", "tidak wajar"],
+      question: "1. Hari ini kantin sangat ramai sehingga bude kantin kesusahan untuk melayani semua siswa yang ingin membeli, temanmu saat itu mengambil 2 ultra milk tanpa membayar dan pada saat dikelas temanmu memberikan 1 susu. Apa yang kamu rasakan?",
+      answer: "Sedikit kesal",
+      answer5: "Biasa aja",
+      options: ["Senang", "Sangat senang", "Biasa aja", "Sedikit kesal"],
     },
     {
       numb: 2,
-      question: "Seorang Pria bekerja sebagai Pegawai Negri, ia sering bepergian keluar kota Bersama keluarganya. Karena sangat menyayangi keluarganya dan tak mau keluarganya merasa tidak nyaman, terkadang ketika bepergian dengan tujuan pribadi, pria tersebut selalu menggunakan kendaraan dinasnya. Apa pendapatmu mengenai hal ini ?",
-      answer: "Tidak wajar",
-      answer5: "Wajar",
-      options: ["Sangat wajar", "Wajar", "Kurang wajar", "Tidak wajar"],
+      question: "Hari ini kantin sangat ramai sehingga bude kantin kesusahan untuk melayani semua siswa yang ingin membeli, temanmu saat itu mengambil 2 ultra milk tanpa membayar dan pada saat dikelas temanmu memberikan 1 susu. Apa yang kamu lakukan?",
+      answer: "Kamu terima dan kamu kembalikan ke kantin",
+      answer5: "Kamu menolak karena tidak suka susu tersebut",
+      options: ["Kamu terima dengan senang hati", "Kamu terima dan merasa biasa saja", "Kamu menolak karena tidak suka susu tersebut", "Kamu terima dan kamu kembalikan ke kantin"],
     },
     {
       numb: 3,
@@ -30,24 +30,24 @@ let questions = [
     },
     {
       numb: 5,
-      question: "Sore ini kamu akan mengerjakan tugas kelompok pelajaran kimia. kerja kelompok dimulai jam 16:00 WITA dirumah temanmu. dan pada jam 16:00 WITA kamu mendapat telfon dari nenekmu sehingga kamu terlambat ikut kerja kelompok selama 15 menit. Bagaimana tanggapanmu?",
+      question: "Mana yang paling cocok dengan pemahamanmu mengenai korupsi dibawah ini?",
       answer: "Tidak wajar, karena teman akan menunggu",
       answer5: "Kurang Wajar, karena akan terlambat",
-      options: ["Tidak wajar, karena teman akan menunggu", "Sangat Wajar, karena nenek adalah orang penting", "Kurang Wajar, karena akan terlambat", "Wajar karena sudah lama tidak ditelfon nenek"],
+      options: ["Korupsi terjadi karena kesulitan ekonomi", "Korupsi hanya dilakukan karena ada hal yang darurat", "Korupsi terjadi karena terbiasa dari hal kecil yang tidak baik", "Korupsi karena ada uang berlebih"],
     },
     {
       numb: 6,
-      question: "Hari ini doni mengikuti upacara bendera disekolah, tiba-tiba dia sakit perut dan izin pergi ke toilet, tapi setelah selesai dari toilet ternyata upacara sudah mau berakhir dan dia memutuskan bersantai di depan toilet",
-      answer5:  "Sangat tidak wajar, karena mengikuti upacara sampai usai adalah        kewajiban pelajar",
-      answer: "Wajar , karena sudah mau selesai",
-      options : ["Sangat wajar, karena hanya akan membuang waktu untuk kembali ke lapangan","Sangat tidak wajar, karena mengikuti upacara sampai usai adalah        kewajiban pelajar"," kurang wajar ,karena upacara belum usai","Wajar , karena sudah mau selesai"],
+      question: "Gratifikasi adalah salah satu jenis korupsi,manakah dibawah ini yang termasuk gratifikasi? ",
+  
+      answer: "Pejabat yang memberikan mobil kepada orang yang telah melancarkan kecurangannya",
+      options : ["Perusahaan yang memberikan sejumlah uang kepada pemerintah agar melancarkan proyeknya  ","Pejabat yang memalsukan catatan keuangannya","Pejabat yang memberikan mobil kepada orang yang telah melancarkan kecurangannya","Sekelompok orang yang meminta sejumlah uang dengan memberikan ancaman"],
     },
     {
       numb: 7,
-      question: "aku kurang suka dengan seorang guru karena sangat galak dan  suka memarahi aku. setiap mapel guru tersebut aku selalu ke toilet dan berlama-lama",
-      answer5: "Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai",
-      answer: " sangat tidak wajar, karena hak guru untuk menegur anak muridnya",
-      options: ["Sangat wajar, karena guru harusnya menyayangi murid,Wajar", "tidak wajar mengikuti pelajaran yang tidak disukai adalah hak ","Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"]
+      question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Termasuk dalam korupsi jenis apakah hal tersebut?",
+      
+      answer: " C. Suap",
+      options: [" Pemerasan", " Penggelapan dalam kekuasaan ","","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"]
     },
     {
       numb: 8,
