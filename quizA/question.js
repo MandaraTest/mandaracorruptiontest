@@ -2,14 +2,14 @@
 let questions = [
     {
       numb: 1,
-      question: "Seorang guru tidak masuk ke kelas yang diajarnya siang ini, ternyata guru tersebut sedang menghadiri pemakaman keluarga. namun beliau tidak menginfokan atau mengonfirmasikan ketidakhadirannya pada muridnya. Apa pendapatmu mengenai hal ini?",
+      question: "Seorang guru tidak masuk ke kelas yang diajarnya siang ini, ternyata guru tersebut sedang menghadiri pemakaman keluarga. Namun beliau tidak menginformasikan ketidakhadirannya pada muridnya. Apa pendapatmu mengenai hal ini?",
       answer: "kurang wajar",
       answer5: "wajar",
       options: ["sangat wajar", "wajar", "kurang wajar", "tidak wajar"],
     },
     {
       numb: 2,
-      question: "Seorang Pria bekerja sebagai Pegawai Negri, ia sering bepergian keluar kota Bersama keluarganya. Karena sangat menyayangi keluarganya dan tak mau keluarganya merasa tidak nyaman, terkadang ketika bepergian dengan tujuan pribadi, pria tersebut selalu menggunakan kendaraan dinasnya. Apa pendapatmu mengenai hal ini ?",
+      question: "Seorang Pria bekerja sebagai Pegawai Negri, ia sering bepergian keluar kota bersama keluarganya. Karena sangat menyayangi keluarganya dan tak mau keluarganya merasa tidak nyaman, terkadang ketika bepergian dengan tujuan pribadi, pria tersebut selalu menggunakan kendaraan dinasnya. Apa pendapatmu mengenai hal ini ?",
       answer: "Tidak wajar",
       answer5: "Wajar",
       options: ["Sangat wajar", "Wajar", "Kurang wajar", "Tidak wajar"],
@@ -36,17 +36,16 @@ let questions = [
     },
     {
       numb: 6,
-      question: "Hari ini doni mengikuti upacara bendera disekolah, tiba-tiba dia sakit perut dan izin pergi ke toilet, tapi setelah selesai dari toilet ternyata upacara sudah mau berakhir dan dia memutuskan bersantai di depan toilet",
-      answer5:  "Sangat tidak wajar, karena mengikuti upacara sampai usai adalah kewajiban pelajar",
-      answer: "Wajar , karena sudah mau selesai",
-      options : ["Sangat wajar, karena hanya akan membuang waktu untuk kembali ke lapangan","Sangat tidak wajar, karena mengikuti upacara sampai usai adalah        kewajiban pelajar"," kurang wajar ,karena upacara belum usai","Wajar , karena sudah mau selesai"],
+      question: "Hari ini Doni mengikuti upacara bendera disekolah, tiba-tiba dia sakit perut dan izin pergi ke toilet, tapi setelah selesai dari toilet ternyata upacara sudah mau berakhir dan dia memutuskan bersantai di depan toilet. Bagaimana tanggapanmu?",
+      answer:  "Sangat tidak wajar, karena mengikuti upacara sampai usai adalah kewajiban pelajar",
+      options : ["Sangat wajar, karena hanya akan membuang waktu untuk kembali ke lapangan","Sangat tidak wajar, karena mengikuti upacara sampai usai adalah kewajiban pelajar","kurang wajar ,karena upacara belum usai","Wajar , karena sudah mau selesai"],
     },
     {
       numb: 7,
-      question: "aku kurang suka dengan seorang guru karena sangat galak dan  suka memarahi aku. setiap mapel guru tersebut aku selalu ke toilet dan berlama-lama",
+      question: "Aku kurang suka dengan seorang guru karena sangat galak dan suka memarahi aku. Setiap mapel guru tersebut aku selalu ke toilet dan berlama-lama",
+      answer: "Sangat tidak wajar, karena hak guru untuk menegur anak muridnya",
       answer5: "Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai",
-      answer: "sangat tidak wajar, karena hak guru untuk menegur anak muridnya",
-      options: ["Sangat wajar, karena guru harusnya menyayangi murid,Wajar", "tidak wajar mengikuti pelajaran yang tidak disukai adalah hak","Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"],
+      options: ["Sangat wajar, karena guru harusnya menyayangi murid,Wajar","tidak wajar mengikuti pelajaran yang tidak disukai adalah hak","Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"],
     },
     {
       numb: 8,
@@ -67,7 +66,7 @@ let questions = [
       question: "Pada jam terakhir sekolah hari ini, sekolah mengadakan bersih-bersih dan kelasmu ternyata sudah bersih, dan dikelas tidak ada absen yang dilakukan sehingga bisa pulang lebih dulu",
       answer: "Menunggu jam pulang sekolah",
       answer5: "Menunggu arahan dari guru",
-      options: ["Pulang lebih dulu","Menunggu arahan dari guru","Tidur dikelas","Menunggu jam pulang sekolah "],
+      options: ["Pulang lebih dulu","Menunggu arahan dari guru","Tidur dikelas","Menunggu jam pulang sekolah"],
     },
     // you can uncomment the below codes and make duplicate as more as you want to add question
     // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
