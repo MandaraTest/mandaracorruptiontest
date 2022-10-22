@@ -16,10 +16,9 @@ let questions = [
     },
     {
       numb: 3,
-      question: "Hari ini adalah deadline pengumpulan tugas rangkuman biologi, dan ternyata kamu lupa mengerjakannya. Temanmu menawarkan untuk menyalin punya temanmu, apa yang mungkin kamu lakukan?",
-      answer: "Tidak mengumpulkan tugas",
-      answer5: "Bolos",
-      options: ["Menyalin seluruh tugas teman", "Bolos", "Tidak mengumpulkan tugas", "Menyalin setengah tugas teman"],
+      question: "Berdasarkan analisis KPK nilai-nilai Integritas (Antikotupsi) terbagi menjadi 9 nilai, apa saja nilai-nilai tersebut?",
+      answer: "Jujur, mandiri, disiplin, peduli, tanggung jawab, kerja keras, adil, sederhana, dan berani",
+      options: ["Peduli, amanah, jujur, kerja keras, faktual, tidak curang, mandiri, tanggung jawab dan adil", "Jujur, peduli, disiplin, integritas, kerja keras, percaya diri, adil, berani dan mandiri", "Jujur, mandiri, disiplin, peduli, tanggung jawab, kerja keras, adil, sederhana, dan berani", "Adil, tanggung jawab, jujur, cerdas, mandiri, amanah, peduli, faktual dan berani"],
     },
     {
       numb: 4,
@@ -47,14 +46,14 @@ let questions = [
       question: "aku kurang suka dengan seorang guru karena sangat galak dan  suka memarahi aku. setiap mapel guru tersebut aku selalu ke toilet dan berlama-lama",
       answer5: "Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai",
       answer: "sangat tidak wajar, karena hak guru untuk menegur anak muridnya",
-      options: ["Sangat wajar, karena guru harusnya menyayangi murid,Wajar", "tidak wajar mengikuti pelajaran yang tidak disukai adalah hak","Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"]
+      options: ["Sangat wajar, karena guru harusnya menyayangi murid,Wajar", "tidak wajar mengikuti pelajaran yang tidak disukai adalah hak","Kurang wajar, apa salahnya mengikuti pelajaran sampai selesai","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"],
     },
     {
       numb: 8,
       question: "Hari ini ada pelajaran matematika, tetapi karena sebuah alasan pribadi yaitu menjemput anaknya yang sekolah seorang guru tidak masuk ke kela",
       answer5: "Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya",
       answer: "Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar",
-      options: ["Sangat Wajar, karena adalah tugas orang tua menjaga anaknya","Wajar,karena sang anak akan menunggu di sekolahnya","Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya","Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar",]
+      options: ["Sangat Wajar, karena adalah tugas orang tua menjaga anaknya","Wajar,karena sang anak akan menunggu di sekolahnya","Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya","Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar"],
     },
     {
       numb: 9,

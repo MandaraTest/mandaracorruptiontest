@@ -2,7 +2,7 @@
 let questions = [
     {
       numb: 1,
-      question: "1. Hari ini kantin sangat ramai sehingga bude kantin kesusahan untuk melayani semua siswa yang ingin membeli, temanmu saat itu mengambil 2 ultra milk tanpa membayar dan pada saat dikelas temanmu memberikan 1 susu. Apa yang kamu rasakan?",
+      question: "Hari ini kantin sangat ramai sehingga bude kantin kesusahan untuk melayani semua siswa yang ingin membeli, temanmu saat itu mengambil 2 ultra milk tanpa membayar dan pada saat dikelas temanmu memberikan 1 susu. Apa yang kamu rasakan?",
       answer: "Sedikit kesal",
       answer5: "Biasa aja",
       options: ["Senang", "Sangat senang", "Biasa aja", "Sedikit kesal"],
@@ -18,57 +18,56 @@ let questions = [
       numb: 3,
       question: "Hari ini adalah deadline pengumpulan tugas rangkuman biologi, dan ternyata kamu lupa mengerjakannya. Temanmu menawarkan untuk menyalin punya temanmu, apa yang mungkin kamu lakukan?",
       answer: "Tidak mengumpulkan tugas",
-      answer5: "Bolos",
       options: ["Menyalin seluruh tugas teman", "Bolos", "Tidak mengumpulkan tugas", "Menyalin setengah tugas teman"],
     },
     {
       numb: 4,
-      question: "Osis akan mengadakan sebuah event, dan untuk melaksanakan event tersebut dibutuhkan dana. Salah satu cara mendapatkan dana adalah mengajukan proposal kesekolah. Dan Bendahara event membuat laporan anggaran dana melebihi yang dibutuhkan dengan alasan mengantisipasi kurangnya dana yang akan diberikan sekolah. Bagaimana pendapatmu?",
+      question: "Osis akan mengadakan sebuah event, dan untuk melaksanakan event tersebut dibutuhkan dana. Salah satu cara mendapatkan dana adalah mengajukan proposal ke sekolah. Dan Bendahara event membuat laporan anggaran dana melebihi yang dibutuhkan dengan alasan mengantisipasi kurangnya dana yang akan diberikan sekolah. Bagaimana pendapatmu?",
       answer5: "Kurang Wajar",
       answer: "Wajar",
       options: ["Sangat wajar", "Wajar", "Kurang wajar", "Tidak Wajar"],
     },
     {
       numb: 5,
-      question: "Mana yang paling cocok dengan pemahamanmu mengenai korupsi dibawah ini?",
-      answer: "Tidak wajar, karena teman akan menunggu",
-      answer5: "Kurang Wajar, karena akan terlambat",
+      question: "Mana yang paling cocok dengan pemahamanmu mengenai korupsi di bawah ini?",
+      answer: "Korupsi terjadi karena terbiasa dari hal kecil yang tidak baik",
+      answer5: "Korupsi karena ada uang berlebih",
       options: ["Korupsi terjadi karena kesulitan ekonomi", "Korupsi hanya dilakukan karena ada hal yang darurat", "Korupsi terjadi karena terbiasa dari hal kecil yang tidak baik", "Korupsi karena ada uang berlebih"],
     },
     {
       numb: 6,
-      question: "Gratifikasi adalah salah satu jenis korupsi,manakah dibawah ini yang termasuk gratifikasi? ",
-  
+      question: "Gratifikasi adalah salah satu jenis korupsi, manakah dibawah ini yang termasuk gratifikasi? ",
       answer: "Pejabat yang memberikan mobil kepada orang yang telah melancarkan kecurangannya",
-      options : ["Perusahaan yang memberikan sejumlah uang kepada pemerintah agar melancarkan proyeknya  ","Pejabat yang memalsukan catatan keuangannya","Pejabat yang memberikan mobil kepada orang yang telah melancarkan kecurangannya","Sekelompok orang yang meminta sejumlah uang dengan memberikan ancaman"],
+      answer5: "Perusahaan yang memberikan sejumlah uang kepada pemerintah agar melancarkan proyeknya",
+      options: ["Perusahaan yang memberikan sejumlah uang kepada pemerintah agar melancarkan proyeknya","Pejabat yang memalsukan catatan keuangannya","Pejabat yang memberikan mobil kepada orang yang telah melancarkan kecurangannya","Sekelompok orang yang meminta sejumlah uang dengan memberikan ancaman"],
     },
     {
       numb: 7,
       question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Termasuk dalam korupsi jenis apakah hal tersebut?",
-      
-      answer: " C. Suap",
-      options: [" Pemerasan", " Penggelapan dalam kekuasaan ","","Sangat tidak wajar, karena hak guru untuk menegur anak muridnya"]
+      answer: "Suap",
+      answer5: "Benturan dalam kepentingan pengadaan",
+      options: ["Pemerasan","Penggelapan dalam kekuasaan ","Suap","Benturan kepentingan dalam pengadaan"],
     },
     {
       numb: 8,
-      question: "Hari ini ada pelajaran matematika, tetapi karena sebuah alasan pribadi yaitu menjemput anaknya yang sekolah seorang guru tidak masuk ke kela",
-      answer5: "Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya",
-      answer: "Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar",
-      options: ["Sangat Wajar, karena adalah tugas orang tua menjaga anaknya","Wajar,karena sang anak akan menunggu di sekolahnya","Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya","Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar",]
+      question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Disebut apakah kerja sama yang terjalin?",
+      answer: "Korporasi",
+      answer5: "Duet",
+      options: ["Duet","Gratifikasi","Korporasi","Kerja tim",]
     },
     {
       numb: 9,
-      question: "Hari ini ada upacara disekolah, kamu tidak memakai atribut lengkap dan harus masuk barisan khusus. kamu juga mengikuti bimbingan lomba sehingga boleh langsung ke tempat bimbingan apa yang akan kamu lakukan",
-      answer: "Tetap ke lapangan dan masuk barisan khusus",
-      answer5: "Mengambil punya teman",
-      options:[" Mengambil punya teman","Izin ke toilet dan bersembunyi"," Langsung ke tempat bimbingan"," Tetap ke lapangan dan masuk barisan khusus"],
+      question: "Lembaga yang bertanggung jawab untuk memberantas korupsi di indonesia adalah?",
+      answer: "Komisi Pemberantasan Korupsi",
+      answer5: "Kejaksaan",
+      options:[" Kepolisian RI","Kejaksaan","Komisi Pemberantasan Korupsi","Badan Pemeriksa Keuangan"],
     }, 
     {
       numb: 10,
-      question: "Pada jam terakhir sekolah hari ini, sekolah mengadakan bersih-bersih dan kelasmu ternyata sudah bersih, dan dikelas tidak ada absen yang dilakukan sehingga bisa pulang lebih dulu",
-      answer: "Menunggu jam pulang sekolah",
-      answer5: " Menunggu arahan dari guru",
-      options: ["Pulang lebih dulu","Menunggu arahan dari guru","Tidur dikelas","Menunggu jam pulang sekolah "],
+      question: "Menurut kamu upaya yang bisa dilakukan oleh generasi muda dalam memberantas korupsi?",
+      answer: "Menghindari perilaku- perilaku yang mengarah pada tindak pidana korupsi",
+      answer5: "Belajar dengan rajin",
+      options: ["Demo atas korupsi yang masih terjadi","Belajar dengan rajin","Menyuarakan Hukuman mati bagi Koruptor","Menghindari perilaku- perilaku yang mengarah pada tindak pidana korupsi"],
     },
     // you can uncomment the below codes and make duplicate as more as you want to add question
     // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....

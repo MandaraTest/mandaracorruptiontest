@@ -37,12 +37,20 @@
   margin-top: 2rem;
   background-color: #e2edff;
 }
-.btn {
+.btn2 {
   margin-top: 1rem;
 }
 .card p {
   font-family: 'Roboto Slab', serif;
 }
+.penunjuklink p {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: 'Concert One', cursive;
+  text-align: center;
+  font-size: 2rem;
+}
 footer p {
   text-align: center;
+  padding-top: 1rem;
 }
