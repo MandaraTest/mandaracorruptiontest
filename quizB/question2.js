@@ -44,16 +44,14 @@ let questions = [
     {
       numb: 7,
       question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Termasuk dalam korupsi jenis apakah hal tersebut?",
-      answer: "Suap",
-      answer5: "Benturan dalam kepentingan pengadaan",
+      answer: "Benturan dalam kepentingan pengadaan",
       options: ["Pemerasan","Penggelapan dalam kekuasaan ","Suap","Benturan kepentingan dalam pengadaan"],
     },
     {
       numb: 8,
       question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Disebut apakah kerja sama yang terjalin?",
       answer: "Korporasi",
-      answer5: "Duet",
-      options: ["Duet","Gratifikasi","Korporasi","Kerja tim",]
+      options: ["Duet","Gratifikasi","Korporasi","Kerja tim",],
     },
     {
       numb: 9,
