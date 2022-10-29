@@ -45,7 +45,7 @@ let questions = [
       numb: 7,
       question: "Bupati dan kontraktor perbaikan jalan bekerja sama untuk melakukan kecurangan agar mendapatkan keuntungan bersama. Termasuk dalam korupsi jenis apakah hal tersebut?",
       answer: "Benturan dalam kepentingan pengadaan",
-      options: ["Pemerasan","Penggelapan dalam kekuasaan ","Suap","Benturan kepentingan dalam pengadaan"],
+      options: ["Pemerasan","Penggelapan dalam kekuasaan ","Suap","Benturan dalam kepentingan pengadaan"],
     },
     {
       numb: 8,
