@@ -50,13 +50,12 @@ let questions = [
     {
       numb: 8,
       question: "Hari ini ada pelajaran matematika, tetapi karena sebuah alasan pribadi yaitu menjemput anaknya yang sekolah seorang guru tidak masuk ke kelas. Bagaimana pendapatmu?",
-      answer5: "Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya",
       answer: "Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar",
       options: ["Sangat Wajar, karena adalah tugas orang tua menjaga anaknya","Wajar, karena sang anak akan menunggu di sekolahnya","Kurang wajar, karena bisa minta tolong ke orang lain untuk menjemput anaknya","Tidak wajar, karena guru tersebut mempunyai tanggung jawab mengajar"],
     },
     {
       numb: 9,
-      question: "Hari ini ada upacara disekolah, kamu tidak memakai atribut lengkap dan harus masuk barisan khusus. kamu juga mengikuti bimbingan lomba sehingga boleh langsung ke tempat bimbingan apa yang akan kamu lakukan",
+      question: "Hari ini ada upacara disekolah, kamu tidak memakai atribut lengkap dan harus masuk barisan khusus. Kamu juga mengikuti bimbingan lomba sehingga boleh langsung ke tempat bimbingan apa yang akan kamu lakukan",
       answer: "Tetap ke lapangan dan masuk barisan khusus",
       answer5: "Mengambil punya teman",
       options:["Tetap ke lapangan dan masuk barisan khusus","Izin ke toilet dan bersembunyi","Langsung ke tempat bimbingan","Mengambil punya teman"],
